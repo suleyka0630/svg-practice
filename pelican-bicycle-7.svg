@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Pencil sketch style -->
+  <rect width="800" height="600" fill="#f7f4ec"/>
+
+  <!-- Sketchy ground line -->
+  <path d="M20 500 Q200 494 380 502 T780 498" fill="none" stroke="#b9b3a4" stroke-width="3"/>
+  <path d="M40 520 Q250 515 470 522 T760 518" fill="none" stroke="#d3cebf" stroke-width="2"/>
+
+  <!-- Wheels (double pencil strokes for sketch feel) -->
+  <g fill="none" stroke="#4a4a4a" stroke-linecap="round">
+    <circle cx="265" cy="450" r="60" stroke-width="4"/>
+    <circle cx="265" cy="450" r="58" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="545" cy="450" r="60" stroke-width="4"/>
+    <circle cx="545" cy="450" r="58" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <!-- Hatching inside wheels -->
+  <g stroke="#8a8a8a" stroke-width="1.5" opacity="0.8">
+    <line x1="265" y1="390" x2="265" y2="510"/>
+    <line x1="205" y1="450" x2="325" y2="450"/>
+    <line x1="545" y1="390" x2="545" y2="510"/>
+    <line x1="485" y1="450" x2="605" y2="450"/>
+  </g>
+  <!-- Cross-hatch shading -->
+  <g stroke="#6b6b6b" stroke-width="1.2" opacity="0.5">
+    <line x1="215" y1="420" x2="245" y2="400"/>
+    <line x1="225" y1="445" x2="265" y2="405"/>
+    <line x1="235" y1="470" x2="285" y2="420"/>
+    <line x1="495" y1="420" x2="525" y2="400"/>
+    <line x1="505" y1="445" x2="545" y2="405"/>
+    <line x1="515" y1="470" x2="565" y2="420"/>
+  </g>
+
+  <!-- Frame -->
+  <g fill="none" stroke="#3d3d3d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M265 450 L395 450 L330 340 Z"/>
+    <line x1="330" y1="340" x2="488" y2="328"/>
+    <line x1="395" y1="450" x2="488" y2="328"/>
+    <line x1="488" y1="328" x2="545" y2="450"/>
+  </g>
+  <!-- Frame shading line -->
+  <path d="M272 458 L400 458 L335 348" fill="none" stroke="#8a8a8a" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Handlebar -->
+  <path d="M488 328 L480 296 Q478 286 492 286 L526 286" fill="none" stroke="#3d3d3d" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Seat -->
+  <line x1="330" y1="340" x2="327" y2="322" stroke="#3d3d3d" stroke-width="5"/>
+  <path d="M305 320 Q327 311 349 320" fill="none" stroke="#3d3d3d" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Crank + pedal -->
+  <circle cx="395" cy="450" r="9" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+  <line x1="395" y1="450" x2="372" y2="482" stroke="#3d3d3d" stroke-width="5"/>
+  <line x1="372" y2="482" x2="358" y2="482" stroke="#3d3d3d" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Pelican outline (sketch) -->
+  <g fill="none" stroke="#2e2e2e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tail -->
+    <path d="M295 238 L243 250 L293 282"/>
+    <!-- Body -->
+    <path d="M295 238 Q300 185 370 185 Q440 185 450 235 Q455 290 380 300 Q305 305 295 238 Z"/>
+    <!-- Wing -->
+    <path d="M312 232 Q360 200 415 232 Q360 262 312 232"/>
+    <!-- Neck -->
+    <path d="M432 215 Q452 165 468 142"/>
+    <!-- Head -->
+    <circle cx="474" cy="130" r="26"/>
+    <!-- Beak -->
+    <path d="M498 122 Q570 124 594 145 Q566 164 500 152"/>
+    <!-- Pouch -->
+    <path d="M500 152 Q552 178 584 158 Q554 194 506 172"/>
+  </g>
+
+  <!-- Shading hatch on pelican body -->
+  <g stroke="#9a9a9a" stroke-width="1.4" opacity="0.65">
+    <line x1="320" y1="265" x2="355" y2="235"/>
+    <line x1="330" y1="285" x2="370" y2="248"/>
+    <line x1="345" y1="298" x2="385" y2="262"/>
+    <line x1="320" y1="220" x2="345" y2="205"/>
+    <line x1="335" y1="212" x2="365" y2="196"/>
+    <line x1="352" y1="205" x2="382" y2="190"/>
+    <line x1="425" y1="270" x2="445" y2="240"/>
+    <line x1="435" y1="285" x2="452" y2="258"/>
+  </g>
+
+  <!-- Neck shading -->
+  <path d="M445 210 Q458 170 472 148" fill="none" stroke="#9a9a9a" stroke-width="2" opacity="0.6"/>
+
+  <!-- Eye -->
+  <circle cx="484" cy="124" r="5" fill="#2e2e2e"/>
+  <circle cx="485.5" cy="122.5" r="1.8" fill="#f7f4ec"/>
+
+  <!-- Wing/arm to handlebar -->
+  <path d="M420 235 Q462 248 492 288" fill="none" stroke="#2e2e2e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M420 235 Q462 248 492 288" fill="none" stroke="#9a9a9a" stroke-width="16" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Legs -->
+  <path d="M358 298 Q372 378 368 458" fill="none" stroke="#3d3d3d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M392 298 Q406 356 402 418" fill="none" stroke="#4a4a4a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M365 320 Q373 372 371 430" fill="none" stroke="#9a9a9a" stroke-width="2" opacity="0.7"/>
+  <path d="M399 320 Q406 360 403 400" fill="none" stroke="#9a9a9a" stroke-width="2" opacity="0.7"/>
+
+  <!-- Feet -->
+  <path d="M360 458 Q350 472 356 480 L370 470 L384 478 L376 456" fill="none" stroke="#3d3d3d" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M394 418 Q386 430 392 437 L404 428 L416 435 L410 416" fill="none" stroke="#4a4a4a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Signature / caption -->
+  <text x="60" y="560" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#8a8578">"a fine morning for a ride"</text>
+</svg>

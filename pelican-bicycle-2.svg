@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Flat minimalist style -->
+  <rect width="800" height="600" fill="#e8f7ff"/>
+  <rect y="500" width="800" height="100" fill="#9be28a"/>
+
+  <!-- Wheels -->
+  <circle cx="250" cy="450" r="55" fill="none" stroke="#222" stroke-width="6"/>
+  <circle cx="550" cy="450" r="55" fill="none" stroke="#222" stroke-width="6"/>
+
+  <!-- Frame -->
+  <g stroke="#ff6b5e" stroke-width="9" stroke-linecap="round" fill="none">
+    <line x1="250" y1="450" x2="380" y2="450"/>
+    <line x1="250" y1="450" x2="320" y2="340"/>
+    <line x1="380" y1="450" x2="320" y2="340"/>
+    <line x1="320" y1="340" x2="470" y2="330"/>
+    <line x1="380" y1="450" x2="475" y2="345"/>
+    <line x1="475" y1="345" x2="550" y2="450"/>
+  </g>
+  <!-- Seat -->
+  <line x1="320" y1="340" x2="318" y2="322" stroke="#222" stroke-width="5"/>
+  <ellipse cx="315" cy="318" rx="20" ry="6" fill="#222"/>
+  <!-- Handlebar -->
+  <path d="M472 334 L465 305 L515 305" fill="none" stroke="#222" stroke-width="6" stroke-linecap="round"/>
+  <!-- Pedal -->
+  <circle cx="380" cy="450" r="8" fill="#222"/>
+  <line x1="380" y1="450" x2="358" y2="480" stroke="#222" stroke-width="5"/>
+
+  <!-- Pelican -->
+  <ellipse cx="340" cy="255" rx="70" ry="48" fill="#ffffff"/>
+  <path d="M285 245 L240 262 L282 280 Z" fill="#f0f0f0"/>
+  <path d="M395 240 Q415 185 432 162" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="437" cy="150" r="22" fill="#ffffff"/>
+  <path d="M455 145 Q530 148 555 164 Q528 176 458 168 Z" fill="#ffb13d"/>
+  <path d="M458 166 Q515 188 545 172 Q520 200 465 184 Z" fill="#f08c2e"/>
+  <circle cx="444" cy="144" r="4" fill="#222"/>
+  <path d="M305 245 Q355 222 400 248 Q355 272 305 245 Z" fill="#f0f0f0"/>
+  <path d="M390 255 Q435 270 475 300" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round"/>
+  <path d="M345 300 Q360 375 358 472" fill="none" stroke="#ffb13d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M380 300 Q392 365 385 435" fill="none" stroke="#f08c2e" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="358" cy="476" rx="13" ry="6" fill="#f08c2e"/>
+  <ellipse cx="385" cy="439" rx="12" ry="6" fill="#ffb13d"/>
+</svg>
